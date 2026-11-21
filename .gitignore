@@ -221,3 +221,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Private student datasets
+data/
+*.csv
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
